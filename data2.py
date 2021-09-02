@@ -1,6 +1,6 @@
 import sqlite3
 
-conn = sqlite3.connect('database1.db.db')
+conn = sqlite3.connect('database1.db.')
 print("Opened database successfully");
 
 cursor = conn.execute("SELECT * from MOVIES")
